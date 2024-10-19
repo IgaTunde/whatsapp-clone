@@ -11,7 +11,7 @@ export default function TabsLayout() {
         initialRouteName="chats"
         screenOptions={{
           headerShown: true,
-          headerTitle: 'Wa Business',
+          headerTitle: 'WA Business',
           headerTintColor: 'white',
           headerStyle: {
             backgroundColor: '#273443',
