@@ -3,7 +3,6 @@
     "name": "whatsapp-clone",
     "slug": "whatsapp-clone",
     "version": "1.0.0",
-
     "scheme": "whatsapp-clone",
     "web": {
       "bundler": "metro",
@@ -21,28 +20,30 @@
     ],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
-    "userInterfaceStyle": "light",
-
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#075e54"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.tundeoilwears.whatsappclone"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "181ff4df-21f0-4bd2-af96-75b984252617"
       }
     }
   }
